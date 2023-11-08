@@ -1,11 +1,10 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-gem "webrick", "~> 1.8"
-gem "github-pages", group: :jekyll_plugins
-
+gem "jekyll"
 group :jekyll_plugins do
-  gem 'jekyll-sitemap'
-  gem 'jekyll-feed'
-  gem 'jekyll-seo-tag'
+  gem "jekyll-include-cache"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "webrick", "~> 1.8"
+  gem "github-pages"
 end
