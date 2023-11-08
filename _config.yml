@@ -1,3 +1,17 @@
+remote_theme: pages-themes/midnight@v0.2.0
+
+title: [Ian Hecker's Website]
+description: [Welcome!]
+github: [https://github.com/ianhecker]
+
+website: https://ianhecker.com
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 collections:
   topics:
     output: true
